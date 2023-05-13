@@ -350,3 +350,220 @@ header button:hover {
 .end-desc .btn-right:hover{
     background-color: #5d4a3a;
 }
+/* css for part3 ==================================== */
+.part3{
+    padding: 80px;
+    height: 350px;
+    background: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.726);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: space-between;
+}
+.part3-right{
+    width: 340px;
+    /* min-height: auto; */
+    background-color: #e5dad2;
+    border-radius: 3px;
+    padding: 30px;
+    position: relative;
+}
+.part3-right input{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+    border: none;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.362); */
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+}
+.part3-right .btn{
+    width: 100%;
+    height: 35px;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #a7856a;
+    transition: 0.5s;
+}
+.part3-right button:hover{
+    background-color: #5d4a3a;
+}
+.part3-right a{
+    text-decoration: none;
+    color: rgb(51, 51, 51) ;
+    transition: 0.5s;
+}
+.part3-right a:hover{
+    color: #a7856a;
+}
+.part3-right h2{
+    margin-bottom: 20px;
+}
+.part3-right a li{
+    list-style: square;
+    font-weight: bold;
+
+}
+.part3-left{
+    width: 595px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+.part3-left h2{
+    font-size: 35px;
+    margin-bottom: 1rem;
+
+}
+.part3-left-up{
+    margin-bottom: 20px;
+}
+.part3-left-up p{
+    color: rgb(183, 183, 183);
+}
+.part3-left-down i{
+    margin-right: 20px;
+}
+.email-part3{
+    margin-bottom: 35px;
+}
+.email-part3 , .phone-part3{
+    display: flex;
+}
+.email-part3 span , .phone-part3 span{
+    color: rgb(182, 182, 182);
+}
+/* reservation ========================================= */
+
+#tarikh , #adult{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    height: 45px;
+    margin: 20px 0;
+    padding: 0 20px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.362);
+    cursor: pointer;
+    color: #797979;
+    font-size: 18px;
+}
+#adult{
+    display: flex;
+    justify-content: space-between;
+}
+.tarikh-left , .adult-left{
+    display: flex;
+}
+.tarikh-left i , .adult-left i{
+    margin-right: 10px;
+}
+.menu-adult{
+    width: 312px;
+    background-color: white;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.362);
+    margin-top: 2px !important;
+    position: absolute;
+    top: 195px;
+    height: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+.menu-adult span{
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+}
+.gp-up , .gp-down{
+    display: flex;
+    width: 100%;
+    /* opacity: 0;
+    visibility: hidden;
+    transition: 0.5s; */
+
+}
+.item{
+    border: 1px solid grey;
+    height: 35px;
+}
+.item1 , .item3{
+    width: 45px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* for calender tables ========================================== */
+thead th{
+    border-bottom: 1px solid rgb(203, 203, 203);
+    padding-bottom: 10px;
+}
+table{
+    padding: 20px;
+    margin: 0 10px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.271); */
+    border-radius: 6px;
+    border-spacing: 5px;
+}
+.table-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+td{
+    /* background-color: aquamarine; */
+    cursor: pointer;
+    width: 35px;
+    transition: 0.5s;
+    text-align: center;
+}
+td:hover{
+    background-color: rgb(199, 162, 114);
+}
+.firstchild{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.main-con{
+    position: absolute;
+    top: 133px;
+    right: 0;
+    background-color: white;
+    padding: 0;
+    display: inline-block;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.362);
+    height: 0;
+    transition: 1s;
+    overflow: hidden;
+    
+}
+.stay{
+    font-weight: bold;
+    font-size: 18px;
+}
+.close{
+    display: inline-block;
+    margin-right: 35px;
+    padding: 5px 15px;
+    font-size: 16px;
+    transition: 0.5s;
+    background-color: #a7856a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
