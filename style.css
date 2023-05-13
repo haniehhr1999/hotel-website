@@ -247,3 +247,106 @@ header button:hover {
     font-size: 25px;
     line-height: 40px;
 }
+/* css for part2 ==================================== */
+.part2{
+    padding: 80px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.part2-boxes{
+    /* margin: auto;
+    padding: auto; */
+    /* background-color: rgb(215, 250, 221); */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+.part2-boxes .box{
+    width: 430.663px;
+    height: 511.5px;
+    position: relative;
+    margin: 10px;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.399);
+    background-blend-mode: multiply;
+    transition: 0.5s;
+}
+.box1{
+    background: url(images/box1.jpg);
+}
+.box2{
+    background: url(images/box2.jpg);
+}
+.box3{
+    background: url(images/box3.jpg);
+}
+.box4{
+    background: url(images/box4.jpg);
+}
+.box5{
+    background: url(images/box5.jpg);
+}
+.part2-boxes .box img{
+    margin: 10px;
+}
+.up-box2 , .down-box2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.description{
+    color: white;
+    box-sizing: border-box;
+    padding:30px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    /* height: 208px; */
+    height: 85px;
+    overflow: hidden;
+    transition: 0.5s;
+    /* bottom: -130px;
+    left: 10px;
+    right: 10px; */
+}
+.description h3{
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+.description p{
+    color: rgb(196, 196, 196);
+}
+.end-desc{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .end-desc h3{
+
+} */
+.end-desc .btn-left{
+    color: white;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 10px 15px 10px 0;
+    font-size: 18px;
+}
+.end-desc .btn-left:hover{
+    color: #a7856a;
+}
+.end-desc .btn-right{
+    background-color: #a7856a;
+    transition: 0.5s;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+.end-desc .btn-right:hover{
+    background-color: #5d4a3a;
+}
