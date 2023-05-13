@@ -606,3 +606,105 @@ td:hover{
 .sections{
     display: flex;
 }
+/* css for footer ======================================================== */
+footer{
+    background: #212121;
+    padding: 80px;
+    line-height: 30px;
+}
+footer a:hover{
+    color: #a7856a;
+}
+footer i{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+footer i:hover{
+    color: #a7856a;
+}
+.footer-part1 {
+    padding: 0 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-part1 img{
+    cursor: pointer;
+}
+.footer-part1 , .footer-part2{
+    border-bottom: 1px solid rgb(117, 117, 117);
+}
+.footer-con2{
+    display: flex;
+}
+.footer-con2-left{
+    margin-right: 50px;
+}
+.footer-part2{
+    display: flex;
+    /* flex: 1; */
+    padding: 50px 0;
+}
+.footer-part2 p{
+    color: white;
+}
+.footer-part2 .title{
+    margin-bottom: 35px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.footer-part3{
+    padding: 50px 0 0 0;
+}
+.footer-part3 p{
+    color: white;
+}
+.footer-part2-left{
+    display: flex;
+    flex: 1;
+}
+.footer-part2-right{
+    display: flex;
+    flex: 1;
+}
+.footer-part3{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-part3 a{
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(174, 174, 174);
+}
+.part2-left-left a{
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.part2-right-right{
+    margin-bottom: 50px;
+}
+.part2-right-right #android{
+    margin-right: 10px;
+}
+.part2-right-right .connect{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.part2-left-left p , .part2-left-right .para2l{
+    color: rgb(187, 187, 187);
+}
+.part2-left-right , .part2-left-left , .part2-right-left , .part2-right-right{
+    flex: 1;
+}
+.part2-left-right , .part2-left-left , .part2-right-left{
+    margin-right: 40px;
+}
+.part2-right-left a{
+    transition: 0.5s;
+}
+.links-footer a{
+    display: inline-block;
+    width: 150px;
+}
