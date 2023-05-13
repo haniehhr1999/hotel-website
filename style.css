@@ -567,3 +567,42 @@ td:hover{
     border: none;
     cursor: pointer;
 }
+/* css for part4 ==================================== */
+.part4{
+    padding: 90px;
+}
+.part4 h2{
+    font-size: 40px;
+}
+.part4 .para{
+    font-size: 25px;
+    color: rgb(158, 158, 158);
+    line-height: 90px;
+}
+.sections{
+    width: 412px;
+}
+.sections-down-4{
+    display: flex;
+}
+.sections-up-4{
+    display: flex;
+    margin-bottom: 50px;
+}
+.sections{
+    margin-right: 30px;
+}
+.part4-icons i{
+    color: #a7856a;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.part4-icons h3{
+    font-weight: bold;
+}
+.part4-icons p{
+    color: rgb(73, 73, 73);
+}
+.sections{
+    display: flex;
+}
