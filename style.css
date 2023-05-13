@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* css for header ------------------------------------------------------------------------------------ */
+header{
+    background-color: transparent;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    align-items: center;
+    position: fixed;
+    z-index: 333;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+header i{
+    color: white;
+}
+header button{
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    background-color: #a7856a;
+    cursor: pointer;
+    margin-left: 30px;
+    padding: 7px 15px;
+    transition: 0.5s;
+}
+header button a{
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+header button:hover {
+    background-color: #5d4a3a;
+}
+.header-menu>ul{
+    list-style: none;
+    display: flex;
+}
+.header-menu>ul>li{
+    margin: 0 15px;
+}
+.header-menu>ul>li:hover{
+    color: #a7856a;
+}
+.header-menu>ul>li:hover>a , .header-menu>ul>li:hover>i{
+    color: #a7856a;
+}
+.header-menu>ul>li>i{
+    transition: 0.5s;
+}
+/* .header-menu ul li:hover i{
+    color: #a7856a;
+} */
+.header-menu>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+/* .header-menu a:hover{
+    color: #a7856a;
+} */
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-right .usd{
+    margin: 0 20px;
+}
+.header-right .usd a{
+    text-decoration: none;
+    color: white;
+}
+.header-left img{
+    cursor: pointer;
+}
+.header-icons{
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* css for zir menu ------------------------------------------------------------------------------------ */
+.zir-menu{
+    background-color: #212121;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+    position: fixed;
+    top: 90px;
+    line-height: 20px;
+}
+.zir-menu a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.5s;
+}
+.zir-menu li{
+    margin: 10px;
+    color: wheat;
+    font-size: 22px;
+
+}
+.zir-menu li a{
+    font-size: 17px;
+}
+.zir-menu li:hover a{
+    color: #a7856a;
+}
+.zirmenu-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.pages{
+    display: inline-flex;
+    
+}
+.pages-gp1 , .pages-gp2{
+    margin-right: 60px;
+}
+.pages{
+    right: 430px;
+    display: none;
+}
+.tours{
+    left: 837px;
+    display: none;
+}
+.rooms{
+    left: 655px;
+    display: none;
+}
+.home{
+    left: 560px;
+    display: none;
+}
+.item-home , .item-tour , .item-page , .item-room , .item-gallery{
+    line-height: 90px;
+}
+.item-home:hover .home{
+    display: block;
+}
+.item-tour:hover .tours{
+    display: block;
+}
+.item-page:hover .pages{
+    display: inline-flex;
+}
+.item-room:hover .rooms{
+    display: block;
+}
