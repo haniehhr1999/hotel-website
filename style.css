@@ -227,8 +227,10 @@ header button:hover {
 }
 /* css for part1 ==================================== */
 .part1{
-    background: url(images/Untitled-1.jpg);
+    background: url(images/r19.jpg);
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.622);
+    background-blend-mode: multiply;
     height: 490.112px;
     display: flex;
     justify-content: center;
