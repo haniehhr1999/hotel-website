@@ -9,18 +9,17 @@ a{
 /* css for header ------------------------------------------------------------------------------------ */
 header{
     background-color: transparent;
-    /* background-color: #212121; */
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 100px;
-    align-items: center;
+    width: 100%;
     position: fixed;
     z-index: 333;
     top: 0;
-    width: 100%;
-    height: 90px;
-    box-sizing: border-box;
     transition: 0.5s;
+}
+@media only screen and (min-width: 992px) {
+    header{
+        padding: 0px 100px;
+        
+    }
 }
 header i{
     color: white;
@@ -60,37 +59,25 @@ header button:hover {
 .header-menu>ul>li>i{
     transition: 0.5s;
 }
-/* .header-menu ul li:hover i{
-    color: #a7856a;
-} */
 .header-menu>ul>li>a{
     text-decoration: none;
     color: white;
     font-size: 20px;
     transition: 0.5s;
 }
-/* .header-menu a:hover{
-    color: #a7856a;
-} */
-.header-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.header-right .usd{
-    margin: 0 20px;
-}
-.header-right .usd a{
-    text-decoration: none;
-    color: white;
-}
 .header-left img{
     cursor: pointer;
 }
-.header-icons{
-    margin-left: 10px;
-    cursor: pointer;
+.header-menu>ul>li>i{
+    transition: 0.5s;
 }
+.header-menu>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
 /* css for zir menu ------------------------------------------------------------------------------------ */
 .zir-menu{
     background-color: #212121;
@@ -227,7 +214,7 @@ header button:hover {
 }
 /* css for part1 ==================================== */
 .part1{
-    background: url(images/r19.jpg);
+    background: url(assets/r19.jpg);
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.622);
     background-blend-mode: multiply;
@@ -251,11 +238,11 @@ header button:hover {
 }
 /* css for part2 ==================================== */
 .part2{
-    padding: 80px;
+    /* padding: 80px;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
+    justify-content: center; */
 }
 .part2-boxes{
     /* margin: auto;
@@ -265,7 +252,7 @@ header button:hover {
     /* justify-content: center; */
     /* flex-wrap: wrap; */
 }
-.part2-boxes .box{
+.part2 .box{
     width: 430.663px;
     height: 511.5px;
     position: relative;
@@ -276,27 +263,27 @@ header button:hover {
     transition: 0.5s;
 }
 .box1{
-    background: url(images/box1.jpg);
+    background: url(assets/box1.jpg);
 }
 .box2{
-    background: url(images/box2.jpg);
+    background: url(assets/box2.jpg);
 }
 .box3{
-    background: url(images/box3.jpg);
+    background: url(assets/box3.jpg);
 }
 .box4{
-    background: url(images/box4.jpg);
+    background: url(assets/box4.jpg);
 }
 .box5{
-    background: url(images/box5.jpg);
+    background: url(assets/box5.jpg);
 }
-.part2-boxes .box img{
+/* .part2-boxes .box img{
     margin: 10px;
-}
-.up-box2 , .down-box2{
+} */
+/* .up-box2 , .down-box2{
     display: flex;
     flex-wrap: wrap;
-}
+} */
 .description{
     color: white;
     box-sizing: border-box;
@@ -355,8 +342,8 @@ header button:hover {
 /* css for part3 ==================================== */
 .part3{
     padding: 80px;
-    height: 350px;
-    background: url(images/bg1.jpg);
+    height: auto;
+    background: url(assets/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -581,19 +568,6 @@ td:hover{
     color: rgb(158, 158, 158);
     line-height: 90px;
 }
-.sections{
-    width: 412px;
-}
-.sections-down-4{
-    display: flex;
-}
-.sections-up-4{
-    display: flex;
-    margin-bottom: 50px;
-}
-.sections{
-    margin-right: 30px;
-}
 .part4-icons i{
     color: #a7856a;
     font-size: 30px;
@@ -643,11 +617,6 @@ footer i:hover{
 .footer-con2-left{
     margin-right: 50px;
 }
-.footer-part2{
-    display: flex;
-    /* flex: 1; */
-    padding: 50px 0;
-}
 .footer-part2 p{
     color: white;
 }
@@ -661,14 +630,6 @@ footer i:hover{
 }
 .footer-part3 p{
     color: white;
-}
-.footer-part2-left{
-    display: flex;
-    flex: 1;
-}
-.footer-part2-right{
-    display: flex;
-    flex: 1;
 }
 .footer-part3{
     display: flex;
